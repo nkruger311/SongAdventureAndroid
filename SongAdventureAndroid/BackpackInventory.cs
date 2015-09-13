@@ -12,7 +12,7 @@ namespace SongAdventureAndroid
 {
 	public class BackpackInventory
 	{
-		public Image Image;
+		public Image Image {get;set;}
 
 		public BackpackInventory ()
 		{

@@ -15,7 +15,7 @@ namespace SongAdventureAndroid
         public class TileMap
         {
             [XmlElement("Row")]
-            public List<string> Row;
+			public List<string> Row { get; set; }
 
             public TileMap()
             {
@@ -24,20 +24,14 @@ namespace SongAdventureAndroid
         }
 
         [XmlElement("TileMap")]
-        public TileMap Tile;
-        public Image Image;
-        public string SolidTiles, OverlayTiles, EntranceTiles;
+		public TileMap Tile { get; set; }
+		public Image Image {get;set;}
+		public string SolidTiles { get; set; }
+		public string OverlayTiles { get; set; }
+		public string EntranceTiles { get; set; }
         List<Tile> underlayTiles, overlayTiles;
         Tile.TileState state;
-        public Vector2 TileDimensions;
-
-		/* Added */
-		[XmlIgnore]
-		public int TileStepX=52;
-		[XmlIgnore]
-		public int TileStepY = 14;
-		[XmlIgnore]
-		public int OddRowXOffset = 26;
+		public Vector2 TileDimensions{ get; set; }
 
         public Layer()
         {

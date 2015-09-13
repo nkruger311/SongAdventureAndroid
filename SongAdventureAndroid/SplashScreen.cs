@@ -12,7 +12,7 @@ namespace SongAdventureAndroid
 {
     public class SplashScreen : GameScreen
     {
-        public Image Image;
+		public Image Image {get;set;}
 
 
 

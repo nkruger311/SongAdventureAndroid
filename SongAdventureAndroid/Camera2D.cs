@@ -178,8 +178,6 @@ namespace SongAdventureAndroid
 			//FollowPlayer (gameTime);
 			MoveCamera(gameTime);
 
-			//_rectNavigationArea = new Rectangle (0, 100, ScreenManager.Instance.GraphicsDevice.Viewport.Width, ScreenManager.Instance.GraphicsDevice.Viewport.Height - 200);
-			//_rectPlayerMovableArea.Location = new Point ((int)(PlayerPosition.X - (ScreenManager.Instance.GraphicsDevice.Viewport.Width / 2) + 200), (int)(Camera2D.Instance.Position.Y - (ScreenManager.Instance.GraphicsDevice.Viewport.Height / 2)));
 			_rectPlayerMovableArea.Location = new Point ((int)(Camera2D.Instance.Position.X - (ScreenManager.Instance.GraphicsDevice.Viewport.Width / 2) + 200), (int)(Camera2D.Instance.Position.Y - (ScreenManager.Instance.GraphicsDevice.Viewport.Height / 2)));
 			if (!_bIsCameraMoving) {
 				if (!_rectPlayerMovableArea.Contains (PlayerPosition)) {
@@ -201,12 +199,10 @@ namespace SongAdventureAndroid
 				Position += _vVelocity;
 
 				if (_vVelocity.X > 0) {
-					//if ((int)_rectPlayerMovableArea.X + 100 >= (int)PlayerPosition.X) {
 					if ((int)_rectPlayerMovableArea.X + (ScreenManager.Instance.GraphicsDevice.Viewport.Width / 4) >= (int)PlayerPosition.X) {
 						_bIsCameraMoving = false;
 					}
 				} else {
-					//if ((int)_rectPlayerMovableArea.Right - 100 <= (int)PlayerPosition.X) {
 					if ((int)_rectPlayerMovableArea.Right - (ScreenManager.Instance.GraphicsDevice.Viewport.Width / 4) <= (int)PlayerPosition.X) {
 						_bIsCameraMoving = false;
 					}
@@ -219,9 +215,6 @@ namespace SongAdventureAndroid
 			_bIsCameraMoving = true;
 
 			_vVelocity.X = (MoveSpeed * velocityModifier) * (float)gameTime.ElapsedGameTime.TotalSeconds;
-			//while (Position.X != PlayerPosition.X) {
-			//	Position += _Velocity;
-			//}
 		}
 
 		/// <summary>
@@ -256,11 +249,6 @@ namespace SongAdventureAndroid
 		public void AdjustCameraPosition(GameTime gameTime, int velocityModifier)
 		{
 			_bIsCameraMoving = true;
-
-			//_Velocity.X = (MoveSpeed * velocityModifier) * (float)gameTime.ElapsedGameTime.TotalSeconds;
-			//while (Position.X != PlayerPosition.X) {
-			//	Position += _Velocity;
-			//}
 		}
 
 		int mod(int a, int n)

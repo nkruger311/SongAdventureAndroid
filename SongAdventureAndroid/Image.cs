@@ -12,16 +12,19 @@ namespace SongAdventureAndroid
 {
     public class Image
     {
-        public float Alpha;
-        public string Text, FontName, Path;
-        public Globals.TextAlignment TextAlignment;
+		public float Alpha { get; set; }
+		public string Text { get; set; }
+		public string FontName { get; set; }
+		public string Path { get; set; }
+		public Globals.TextAlignment TextAlignment { get; set; }
         [XmlIgnore]
-        public Vector2 TextAnimationTravel;
+		public Vector2 TextAnimationTravel { get; set; }
         [XmlIgnore]
-        public Color TextColor;
-        public Vector2 Position, Scale;
-        public Rectangle SourceRect;
-        public bool IsActive;
+		public Color TextColor { get; set; }
+		public Vector2 Position { get; set; }
+		public Vector2 Scale { get; set; }
+		public Rectangle SourceRect { get; set; }
+		public bool IsActive { get; set; }
 
         [XmlIgnore]
         public Texture2D Texture;
@@ -502,6 +505,36 @@ namespace SongAdventureAndroid
 
 			//ScreenManager.Instance.GraphicsDevice.SetRenderTarget(null);
 			((Microsoft.Xna.Framework.AndroidGameActivity)Game1.Activity).RunOnUiThread (() => ScreenManager.Instance.GraphicsDevice.SetRenderTarget (null));
+		}
+
+		public void UpdateSourceRectPositionX(int x)
+		{
+			UpdateSourceRectPosition (x, (int)SourceRect.Y);
+		}
+
+		public void UpdateSourceRectPositionY(int y)
+		{
+			UpdateSourceRectPosition ((int)SourceRect.X, y);
+		}
+
+		public void UpdateSourceRectPosition(int x, int y)
+		{
+			SourceRect = new Rectangle((int)x, (int)y, SourceRect.Width, SourceRect.Height);
+		}
+
+		public void UpdatePositionX(int x)
+		{
+			UpdatePosition (x, (int)Position.Y);
+		}
+
+		public void UpdatePositionY(int y)
+		{
+			UpdatePosition ((int)Position.X, y);
+		}
+
+		public void UpdatePosition(int x, int y)
+		{
+			Position = new Vector2 (x, y);
 		}
     }
 }

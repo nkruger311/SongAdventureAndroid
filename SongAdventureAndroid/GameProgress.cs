@@ -13,8 +13,8 @@ namespace SongAdventureAndroid
 {
     public class GameProgress
     {
-		public string CurrentMapName;
-        public Vector2 PlayerPosition;
+		public string CurrentMapName { get; set;}
+		public Vector2 PlayerPosition { get; set;}
         
 		public GameProgress()
         {

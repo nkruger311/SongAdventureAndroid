@@ -17,7 +17,7 @@ namespace SongAdventureAndroid
         public event EventHandler OnClick;
 
         public string Name;
-        public Image Image;
+		public Image Image {get;set;}
         public bool Discovered;
         public Vector2 MapPosition;
         [XmlIgnore]
@@ -69,26 +69,26 @@ namespace SongAdventureAndroid
 
 					if (rectIntersection.Height > rectIntersection.Width) {
 						if (player.Velocity.X < 0) {
-							player.Image.Position.X = BoundingBox.Right;
-							player.Velocity.X = 0;
+							player.UpdateImagePositionX (BoundingBox.Right);
+							player.Velocity = new Vector2 (0, player.Velocity.Y);
 						}
 
 						if (player.Velocity.X > 0) {
-							player.Image.Position.X = BoundingBox.Left - player.Image.SourceRect.Width;
-							player.Velocity.X = 0;
+							player.UpdateImagePositionX(BoundingBox.Left - player.Image.SourceRect.Width);
+							player.Velocity = new Vector2 (0, player.Velocity.Y);
 						}
 					}
 
 					if (rectIntersection.Width > rectIntersection.Height) {
 						if (player.Velocity.Y < 0) {
 							//player.Image.Position.Y = BoundingBox.Bottom;
-							player.Image.Position.Y = BoundingBox.Bottom - (player.Image.SourceRect.Height / 2);
-							player.Velocity.Y = 0;
+							player.UpdateImagePositionY (BoundingBox.Bottom - (player.Image.SourceRect.Height / 2));
+							player.Velocity = new Vector2 (player.Velocity.X, 0);
 						}
 
 						if (player.Velocity.Y > 0) {
-							player.Image.Position.Y = BoundingBox.Top - player.Image.SourceRect.Height;
-							player.Velocity.Y = 0;
+							player.UpdateImagePositionY (BoundingBox.Top - player.Image.SourceRect.Height);
+							player.Velocity = new Vector2 (player.Velocity.X, 0);
 						}
 					}
 

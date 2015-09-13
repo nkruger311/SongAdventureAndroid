@@ -169,8 +169,7 @@ namespace SongAdventureAndroid
 
             addImage.SpriteSheetEffect.AmountOfFrames = new Vector2(1, 2);
             addImage.SpriteSheetEffect.CurrentFrame = new Vector2(0, 0);
-            addImage.SourceRect.X = (int)addImage.Position.X;
-            addImage.SourceRect.Y = (int)addImage.Position.Y;
+            addImage.UpdateSourceRectPosition ((int)addImage.Position.X, (int)addImage.Position.Y);
 
             //addToSongBook.Image.Position = new Vector2((ScreenManager.Instance.GraphicsDevice.Viewport.Width / 2) - (addImage.SourceRect.Width),
             //    (ScreenManager.Instance.GraphicsDevice.Viewport.Height - addImage.SpriteSheetEffect.FrameHeight - 16));
@@ -186,8 +185,7 @@ namespace SongAdventureAndroid
 
             cancelImage.SpriteSheetEffect.AmountOfFrames = new Vector2(1, 2);
             cancelImage.SpriteSheetEffect.CurrentFrame = new Vector2(0, 0);
-            cancelImage.SourceRect.X = (int)cancelImage.Position.X;
-            cancelImage.SourceRect.Y = (int)cancelImage.Position.Y;
+            cancelImage.UpdateSourceRectPosition ((int)cancelImage.Position.X, (int)cancelImage.Position.Y);
 
             //cancel.Image.Position = new Vector2((ScreenManager.Instance.GraphicsDevice.Viewport.Width - cancelImage.SourceRect.Width) - (ScreenManager.Instance.GraphicsDevice.Viewport.Width / 25),
             //    (ScreenManager.Instance.GraphicsDevice.Viewport.Height - cancelImage.SpriteSheetEffect.FrameHeight - 16));
@@ -231,6 +229,8 @@ namespace SongAdventureAndroid
 						if (currentSongism.InventoryReward.Name != null) {
 							Inventory.Instance.Items.Add (currentSongism.InventoryReward);
 						}
+
+						Inventory.Instance.Save ();
 
                         Leave();
                     }

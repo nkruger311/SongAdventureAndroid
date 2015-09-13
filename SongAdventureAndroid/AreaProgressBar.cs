@@ -12,7 +12,7 @@ namespace SongAdventureAndroid
 {
     public class AreaProgressBar
     {
-        public Image Image;
+		public Image Image {get;set;}
 
 		public AreaProgressBar()
         {

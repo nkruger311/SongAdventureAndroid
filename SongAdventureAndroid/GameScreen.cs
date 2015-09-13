@@ -12,9 +12,9 @@ namespace SongAdventureAndroid
 {
     public class GameScreen
     {
-        protected ContentManager content;
+        protected ContentManager _oContent;
         [XmlIgnore]
-        public Type Type;
+		public Type Type { get; set; }
 		[XmlIgnore]
 		public virtual bool IsInitializing { get; set; }
 
@@ -29,12 +29,12 @@ namespace SongAdventureAndroid
 
         public virtual void LoadContent()
         {
-            content = new ContentManager(ScreenManager.Instance.Content.ServiceProvider, "Content");
+			_oContent = new ContentManager(ScreenManager.Instance.Content.ServiceProvider, "Content");
         }
 
         public virtual void UnloadContent()
         {
-            content.Unload();
+			_oContent.Unload();
         }
        
         public virtual void Update(GameTime gameTime)

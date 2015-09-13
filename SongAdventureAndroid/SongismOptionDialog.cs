@@ -32,12 +32,8 @@ namespace SongAdventureAndroid
         public void LoadContent()
         {
             Image.LoadContent();
-            //Image.Scale = new Vector2(2.0f, 1.0f);
-            //Image.Position = Vector2.Transform(new Vector2((ScreenManager.Instance.Dimensions.X / 2) - (Image.SourceRect.Width / 2), (ScreenManager.Instance.Dimensions.Y / 2) - (Image.SourceRect.Height / 2)), Matrix.Invert(Camera2D.Instance.CameraMatrix));
             Image.Position = Vector2.Transform(Vector2.Zero, Matrix.Invert(Camera2D.Instance.CameraMatrix));
             /* Turn the fade effect off */
-            //Image.FadeEffect.IsActive = false;
-            //Image.DeactivateEffect("FadeEffect");
             this.DialogResult = SongAdventureAndroid.DialogResult.None;
             
             for (int buttonIndex = 0; buttonIndex < Buttons.Count; buttonIndex++)
@@ -76,75 +72,6 @@ namespace SongAdventureAndroid
         public void Update(GameTime gameTime)
         {
             Image.IsActive = false;
-
-            #region "Original Code"
-            //if (Velocity.X == 0)
-            //{
-            //    //if (InputManager.Instance.KeyDown(Keys.Down))
-            //    //{
-            //    //    Velocity.Y = MoveSpeed * (float)gameTime.ElapsedGameTime.TotalSeconds;
-            //    //    Image.SpriteSheetEffect.CurrentFrame.Y = 0;
-            //    //}
-            //    //else if (InputManager.Instance.KeyDown(Keys.Up))
-            //    //{
-            //    //    Velocity.Y = -MoveSpeed * (float)gameTime.ElapsedGameTime.TotalSeconds;
-            //    //    Image.SpriteSheetEffect.CurrentFrame.Y = 3;
-            //    //}
-            //    //else
-            //    //    Velocity.Y = 0;
-
-            //    if (InputManager.Instance.LeftMouseButtonDown())
-            //    {
-            //        if (InputManager.Instance.MousePosition.Y > Image.Position.Y)
-            //        {
-            //            Velocity.Y = MoveSpeed * (float)gameTime.ElapsedGameTime.TotalSeconds;
-            //            Image.SpriteSheetEffect.CurrentFrame.Y = 0;
-            //        }
-            //        else if (InputManager.Instance.MousePosition.Y < Image.Position.Y)
-            //        {
-            //            Velocity.Y = -MoveSpeed * (float)gameTime.ElapsedGameTime.TotalSeconds;
-            //            Image.SpriteSheetEffect.CurrentFrame.Y = 3;
-            //        }
-            //        else
-            //            Velocity.Y = 0;
-            //    }
-            //}
-
-            //if (Velocity.Y == 0)
-            //{
-            //    //if (InputManager.Instance.KeyDown(Keys.Right))
-            //    //{
-            //    //    Velocity.X = MoveSpeed * (float)gameTime.ElapsedGameTime.TotalSeconds;
-            //    //    Image.SpriteSheetEffect.CurrentFrame.Y = 2;
-            //    //}
-            //    //else if (InputManager.Instance.KeyDown(Keys.Left))
-            //    //{
-            //    //    Velocity.X = -MoveSpeed * (float)gameTime.ElapsedGameTime.TotalSeconds;
-            //    //    Image.SpriteSheetEffect.CurrentFrame.Y = 1;
-            //    //}
-            //    //else
-            //    //    Velocity.X = 0;
-
-            //    if (InputManager.Instance.LeftMouseButtonDown())
-            //    {
-            //        if (InputManager.Instance.MousePosition.X > Image.Position.X)
-            //        {
-            //            Velocity.X = MoveSpeed * (float)gameTime.ElapsedGameTime.TotalSeconds;
-            //            Image.SpriteSheetEffect.CurrentFrame.Y = 2;
-            //        }
-            //        else if (InputManager.Instance.MousePosition.X < Image.Position.X)
-            //        {
-            //            Velocity.X = -MoveSpeed * (float)gameTime.ElapsedGameTime.TotalSeconds;
-            //            Image.SpriteSheetEffect.CurrentFrame.Y = 1;
-            //        }
-            //        else
-            //            Velocity.X = 0;
-
-            //        if (Velocity.X == 0 && Velocity.Y == 0)
-            //            Image.IsActive = false;
-            //    }
-            //}
-            #endregion // Original Code
 
             /* Checking for a mouse click, setting a destination */
             foreach (DialogButton button in Buttons)

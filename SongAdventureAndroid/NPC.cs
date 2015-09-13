@@ -18,7 +18,7 @@ namespace SongAdventureAndroid
 		public event EventHandler OnIsActiveChanged;
 
 		public string Name;
-		public Image Image;
+		public Image Image {get;set;}
 		public Image InteractionImage;
 		public Image MissionCompleteInteractionImage;
 		public bool CurrentlyInteracting;
@@ -80,8 +80,9 @@ namespace SongAdventureAndroid
 				} else {
 					InteractionBoundingBoxPosition.X = (int)(Camera2D.Instance.Position.X - (ScreenManager.Instance.GraphicsDevice.Viewport.Width / 2)) + 256;
 
-					InteractionImage.Position.X = InteractionBoundingBoxPosition.X;
-					MissionCompleteInteractionImage.Position.X = InteractionBoundingBoxPosition.X;
+					InteractionImage.UpdatePositionX ((int)InteractionBoundingBoxPosition.X);
+
+					MissionCompleteInteractionImage.UpdatePositionX ((int)InteractionBoundingBoxPosition.X);
 					InteractionBoundingBox.X = (int)InteractionBoundingBoxPosition.X;
 				}
 
@@ -117,26 +118,26 @@ namespace SongAdventureAndroid
 
 						if (rectIntersection.Height > rectIntersection.Width) {
 							if (player.Velocity.X < 0) {
-								player.Image.Position.X = BoundingBox.Right;
-								player.Velocity.X = 0;
+								player.UpdateImagePositionX (BoundingBox.Right);
+								player.Velocity = new Vector2 (0, player.Velocity.Y);
 							}
 
 							if (player.Velocity.X > 0) {
-								player.Image.Position.X = BoundingBox.Left - player.Image.SourceRect.Width;
-								player.Velocity.X = 0;
+								player.UpdateImagePositionX (BoundingBox.Left - player.Image.SourceRect.Width);
+								player.Velocity = new Vector2 (0, player.Velocity.Y);
 							}
 						}
 
 						if (rectIntersection.Width > rectIntersection.Height) {
 							if (player.Velocity.Y < 0) {
 								//player.Image.Position.Y = BoundingBox.Bottom;
-								player.Image.Position.Y = BoundingBox.Bottom - (player.Image.SourceRect.Height / 2);
-								player.Velocity.Y = 0;
+								player.UpdateImagePositionY (BoundingBox.Bottom - (player.Image.SourceRect.Height / 2));
+								player.Velocity = new Vector2 (player.Velocity.X, 0);
 							}
 
 							if (player.Velocity.Y > 0) {
-								player.Image.Position.Y = BoundingBox.Top - player.Image.SourceRect.Height;
-								player.Velocity.Y = 0;
+								player.UpdateImagePositionY (BoundingBox.Top - player.Image.SourceRect.Height);
+								player.Velocity = new Vector2 (player.Velocity.X, 0);
 							}
 						}
 

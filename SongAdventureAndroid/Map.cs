@@ -198,7 +198,6 @@ namespace SongAdventureAndroid
 
                     ScreenManager.Instance.IsGuessingSongism = false;
                     XmlManager<Songism> songismLoader = new XmlManager<Songism>();
-                    //Songism currentSongism = songismLoader.Load("Load/Gameplay/Songisms/CurrentSongism.xml");
                     Songism currentSongism = songismLoader.Load(System.IO.Path.Combine(Globals.LoadGameplaySongismsDirectory, "CurrentSongism.xml"));
 
                     if (currentSongism.Discovered)
@@ -222,20 +221,18 @@ namespace SongAdventureAndroid
 
 									songism.Image.Position = new Vector2 (448, 64);
 									songism.Image.SourceRect = new Rectangle (448, 64, 256, 128);
-									songism.Image.SourceRect.Location = new Point(0, 0);
+									songism.Image.SourceRect = new Rectangle (0, 0, songism.Image.SourceRect.Width, songism.Image.SourceRect.Height);
 									songism.Image.IsActive = true;
 
 									songism.Image.FadeEffect.IsActive = false;
 									songism.Image.SpriteSheetEffect.IsActive = false;
-
-
-									XmlManager<List<Songism>> songismSaver = new XmlManager<List<Songism>>();
-									//songismSaver.Save (System.IO.Path.Combine (Globals.LoadGameplaySongismsDirectory, "downtown_los_angeles.xml"), Songisms);
-									songismSaver.Save (System.IO.Path.Combine (Globals.LoadGameplaySongismsDirectory, MapName + ".xml"), Songisms);
 								}
                                 break;
                             }
                         }
+
+						XmlManager<List<Songism>> songismSaver = new XmlManager<List<Songism>>();
+						songismSaver.Save (System.IO.Path.Combine (Globals.LoadGameplaySongismsDirectory, MapName + ".xml"), Songisms);
                     }
                 }
 
