@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Menu>
+  <Axis>Y</Axis>
+  <Item>
+    <LinkType>Menu</LinkType>
+    <LinkID>Load/Menus/TitleMenu.xml</LinkID>
+    <Image>
+      <Text>Back to Title Menu</Text>
+    </Image>
+  </Item>
+</Menu>

@@ -1,0 +1,9 @@
+C:\Users\311 Music\Documents\Xamarin\Projects\SongAdventureAndroid\SongAdventureAndroid.UITests\bin\Debug\SongAdventureAndroid.UITests.dll
+C:\Users\311 Music\Documents\Xamarin\Projects\SongAdventureAndroid\SongAdventureAndroid.UITests\bin\Debug\SongAdventureAndroid.UITests.pdb
+C:\Users\311 Music\Documents\Xamarin\Projects\SongAdventureAndroid\SongAdventureAndroid.UITests\bin\Debug\nunit.framework.dll
+C:\Users\311 Music\Documents\Xamarin\Projects\SongAdventureAndroid\SongAdventureAndroid.UITests\bin\Debug\Xamarin.UITest.dll
+C:\Users\311 Music\Documents\Xamarin\Projects\SongAdventureAndroid\SongAdventureAndroid.UITests\bin\Debug\nunit.framework.xml
+C:\Users\311 Music\Documents\Xamarin\Projects\SongAdventureAndroid\SongAdventureAndroid.UITests\bin\Debug\Xamarin.UITest.xml
+C:\Users\311 Music\Documents\Xamarin\Projects\SongAdventureAndroid\SongAdventureAndroid.UITests\obj\Debug\SongAdventureAndroid.UITests.csprojResolveAssemblyReference.cache
+C:\Users\311 Music\Documents\Xamarin\Projects\SongAdventureAndroid\SongAdventureAndroid.UITests\obj\Debug\SongAdventureAndroid.UITests.dll
+C:\Users\311 Music\Documents\Xamarin\Projects\SongAdventureAndroid\SongAdventureAndroid.UITests\obj\Debug\SongAdventureAndroid.UITests.pdb

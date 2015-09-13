@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Songism xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Time Bomb</Name>
+  <Image>
+    <Alpha>1</Alpha>
+    <Text />
+    <FontName>Fonts/GameFont</FontName>
+    <Path>Gameplay/Songisms/timebomb</Path>
+    <Position>
+      <X>128</X>
+      <Y>128</Y>
+    </Position>
+    <Scale>
+      <X>1</X>
+      <Y>1</Y>
+    </Scale>
+    <SourceRect>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>64</Width>
+      <Height>64</Height>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+    </SourceRect>
+    <IsActive>true</IsActive>
+    <Effects />
+    <FadeEffect>
+      <IsActive>false</IsActive>
+      <FadeSpeed>1</FadeSpeed>
+      <Increase>true</Increase>
+    </FadeEffect>
+    <SpriteSheetEffect>
+      <IsActive>false</IsActive>
+      <FrameCounter>96</FrameCounter>
+      <SwitchFrame>100</SwitchFrame>
+      <CurrentFrame>
+        <X>0</X>
+        <Y>0</Y>
+      </CurrentFrame>
+      <AmountOfFrames>
+        <X>3</X>
+        <Y>4</Y>
+      </AmountOfFrames>
+      <DefaultFrame>
+        <X>0</X>
+        <Y>0</Y>
+      </DefaultFrame>
+    </SpriteSheetEffect>
+  </Image>
+  <Discovered>true</Discovered>
+  <MapPosition>
+    <X>128</X>
+    <Y>128</Y>
+  </MapPosition>
+  <BoundingBoxDimensions>
+    <X>64</X>
+    <Y>64</Y>
+  </BoundingBoxDimensions>
+  <BoundingBoxPosition>
+    <X>128</X>
+    <Y>128</Y>
+  </BoundingBoxPosition>
+  <State>Solid</State>
+  <AlbumName>Uplifter</AlbumName>
+  <SongInfo>Time Bomb is the first track on Uplifter</SongInfo>
+</Songism>

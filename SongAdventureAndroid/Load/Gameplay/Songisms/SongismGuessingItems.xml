@@ -1,0 +1,1242 @@
+<?xml version=\"1.0\" encoding=\"utf-8\"?>
+<ArrayOfSongismGuessingItem xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\">
+  <SongismGuessingItem>
+    <SongName>Welcome</SongName>
+    <AlbumName>Music</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Freak Out</SongName>
+    <AlbumName>Music</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>02</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Visit</SongName>
+    <AlbumName>Music</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>03</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Paradise</SongName>
+    <AlbumName>Music</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>04</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Unity</SongName>
+    <AlbumName>Music</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>05</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Hydroponic</SongName>
+    <AlbumName>Music</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>06</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>My Stoney Baby</SongName>
+    <AlbumName>Music</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>07</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Nix Hex</SongName>
+    <AlbumName>Music</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>08</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Plain</SongName>
+    <AlbumName>Music</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>09</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Feels So Good</SongName>
+    <AlbumName>Music</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>10</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Do You Right</SongName>
+    <AlbumName>Music</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>11</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Fat Chance</SongName>
+    <AlbumName>Music</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>12</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Homebrew</SongName>
+    <AlbumName>Grassroots</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Lucky</SongName>
+    <AlbumName>Grassroots</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>02</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Nutsymptom</SongName>
+    <AlbumName>Grassroots</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>03</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>8:16 A.M.</SongName>
+    <AlbumName>Grassroots</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>04</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Omaha Stylee</SongName>
+    <AlbumName>Grassroots</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>05</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Applied Science</SongName>
+    <AlbumName>Grassroots</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>06</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Taiyed</SongName>
+    <AlbumName>Grassroots</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>07</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Silver</SongName>
+    <AlbumName>Grassroots</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>08</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Grassroots</SongName>
+    <AlbumName>Grassroots</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>09</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Salsa</SongName>
+    <AlbumName>Grassroots</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>10</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Lose</SongName>
+    <AlbumName>Grassroots</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>11</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Six</SongName>
+    <AlbumName>Grassroots</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Offbeat Bare-Ass</SongName>
+    <AlbumName>Grassroots</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>1,2,3</SongName>
+    <AlbumName>Grassroots</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Down</SongName>
+    <AlbumName>311</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Random</SongName>
+    <AlbumName>311</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Jackolantern's Weather</SongName>
+    <AlbumName>311</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>All Mixed Up</SongName>
+    <AlbumName>311</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Hive</SongName>
+    <AlbumName>311</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Guns (Are For Pussies)</SongName>
+    <AlbumName>311</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Misdirected Hostility</SongName>
+    <AlbumName>311</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Purpose</SongName>
+    <AlbumName>311</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Loco</SongName>
+    <AlbumName>311</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Brodels</SongName>
+    <AlbumName>311</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Don't Stay Home</SongName>
+    <AlbumName>311</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>DLMD</SongName>
+    <AlbumName>311</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Sweet</SongName>
+    <AlbumName>311</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>T &amp; P Combo</SongName>
+    <AlbumName>311</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Who's Got The Herb?</SongName>
+    <AlbumName>Hempilation</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Outside</SongName>
+    <AlbumName>National Lampoon's Senior Trip</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Tribute</SongName>
+    <AlbumName>Enlarged to Show Detail</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Let the Cards Fall</SongName>
+    <AlbumName>Enlarged to Show Detail</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Gap</SongName>
+    <AlbumName>Enlarged to Show Detail</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Firewater (Slo-mo)</SongName>
+    <AlbumName>Enlarged to Show Detail</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Transistor</SongName>
+    <AlbumName>Transistor</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Prisoner</SongName>
+    <AlbumName>Transistor</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Galaxy</SongName>
+    <AlbumName>Transistor</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Beautiful Disaster</SongName>
+    <AlbumName>Transistor</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Inner Light Spectrum</SongName>
+    <AlbumName>Transistor</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Electricity</SongName>
+    <AlbumName>Transistor</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>What Was I Thinking</SongName>
+    <AlbumName>Transistor</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Jupiter</SongName>
+    <AlbumName>Transistor</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Use of Time</SongName>
+    <AlbumName>Transistor</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>The Continuous Life</SongName>
+    <AlbumName>Transistor</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>No Control</SongName>
+    <AlbumName>Transistor</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Running</SongName>
+    <AlbumName>Transistor</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Color</SongName>
+    <AlbumName>Transistor</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Light Years</SongName>
+    <AlbumName>Transistor</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Creature Feature</SongName>
+    <AlbumName>Transistor</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Tune In</SongName>
+    <AlbumName>Transistor</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Rub a Dub</SongName>
+    <AlbumName>Transistor</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Starshines</SongName>
+    <AlbumName>Transistor</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Strangers</SongName>
+    <AlbumName>Transistor</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Borders</SongName>
+    <AlbumName>Transistor</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Stealing Happy Hours</SongName>
+    <AlbumName>Transistor</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Soulsucker (New Mix)</SongName>
+    <AlbumName>Omaha Sessions</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Today My Love (New Mix)</SongName>
+    <AlbumName>Omaha Sessions</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Slinky (New Mix)</SongName>
+    <AlbumName>Omaha Sessions</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Summer of Love</SongName>
+    <AlbumName>Omaha Sessions</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Damn</SongName>
+    <AlbumName>Omaha Sessions</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Down South</SongName>
+    <AlbumName>Omaha Sessions</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Rollin'</SongName>
+    <AlbumName>Omaha Sessions</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Right Now</SongName>
+    <AlbumName>Omaha Sessions</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>This Too Shall Pass (New Mix)</SongName>
+    <AlbumName>Omaha Sessions</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Freeze Time</SongName>
+    <AlbumName>Soundsystem</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Come Original</SongName>
+    <AlbumName>Soundsystem</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Large in the Margin</SongName>
+    <AlbumName>Soundsystem</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Flowing</SongName>
+    <AlbumName>Soundsystem</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Can't Fade Me</SongName>
+    <AlbumName>Soundsystem</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Life's Not a Race</SongName>
+    <AlbumName>Soundsystem</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Strong All Along</SongName>
+    <AlbumName>Soundsystem</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Sever</SongName>
+    <AlbumName>Soundsystem</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Eons</SongName>
+    <AlbumName>Soundsystem</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Evolution</SongName>
+    <AlbumName>Soundsystem</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Leaving Babylon</SongName>
+    <AlbumName>Soundsystem</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Mindspin</SongName>
+    <AlbumName>Soundsystem</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Livin' &amp; Rockin'</SongName>
+    <AlbumName>Soundsystem</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Blizza</SongName>
+    <AlbumName>Soundsystem</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>You Get Worked</SongName>
+    <AlbumName>From Chaos</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Sick Tight</SongName>
+    <AlbumName>From Chaos</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>You Wouldn't Believe</SongName>
+    <AlbumName>From Chaos</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Full Ride</SongName>
+    <AlbumName>From Chaos</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>From Chaos</SongName>
+    <AlbumName>From Chaos</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>I Told Myself</SongName>
+    <AlbumName>From Chaos</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Champagne</SongName>
+    <AlbumName>From Chaos</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Hostile Apostle</SongName>
+    <AlbumName>From Chaos</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Wake Your Mind Up</SongName>
+    <AlbumName>From Chaos</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Amber</SongName>
+    <AlbumName>From Chaos</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Uncalm</SongName>
+    <AlbumName>From Chaos</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>I'll Be Here Awhile</SongName>
+    <AlbumName>From Chaos</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Dancehall</SongName>
+    <AlbumName>Enlarged to Show Detail 2</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Bomb the Town</SongName>
+    <AlbumName>Enlarged to Show Detail 2</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Will the World</SongName>
+    <AlbumName>Enlarged to Show Detail 2</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>We Do it Like This</SongName>
+    <AlbumName>Enlarged to Show Detail 2</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Dreamland</SongName>
+    <AlbumName>Enlarged to Show Detail 2</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>I'll Be Here Awhile (Acoustic)</SongName>
+    <AlbumName>Enlarged to Show Detail 2</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Creatures (For a While)</SongName>
+    <AlbumName>Evolver</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Reconsider Everything</SongName>
+    <AlbumName>Evolver</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Crack the Code</SongName>
+    <AlbumName>Evolver</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Same Mistake Twice</SongName>
+    <AlbumName>Evolver</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Beyond the Gray Sky</SongName>
+    <AlbumName>Evolver</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Seems Uncertain</SongName>
+    <AlbumName>Evolver</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Still Dreaming</SongName>
+    <AlbumName>Evolver</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Give Me a Call</SongName>
+    <AlbumName>Evolver</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Don't Dwell</SongName>
+    <AlbumName>Evolver</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Other Side of Things</SongName>
+    <AlbumName>Evolver</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Sometimes Jacks Rule the Realm</SongName>
+    <AlbumName>Evolver</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Coda</SongName>
+    <AlbumName>Evolver</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>What Do You Do</SongName>
+    <AlbumName>Evolver</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Time Is Precious</SongName>
+    <AlbumName>311.com</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Love Song</SongName>
+    <AlbumName>Greatest Hits '93-'03</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>How Do You Feel?</SongName>
+    <AlbumName>Greatest Hits '93-'03</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>First Straw</SongName>
+    <AlbumName>Greatest Hits '93-'03</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Don't Tread on Me</SongName>
+    <AlbumName>Don't Tread On Me</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Thank Your Lucky Stars</SongName>
+    <AlbumName>Don't Tread On Me</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Frolic Room</SongName>
+    <AlbumName>Don't Tread On Me</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Speak Easy</SongName>
+    <AlbumName>Don't Tread On Me</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Solar Flare</SongName>
+    <AlbumName>Don't Tread On Me</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Waiting</SongName>
+    <AlbumName>Don't Tread On Me</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Long for the Flowers</SongName>
+    <AlbumName>Don't Tread On Me</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Getting Through to Her</SongName>
+    <AlbumName>Don't Tread On Me</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Whiskey &amp; Wine</SongName>
+    <AlbumName>Don't Tread On Me</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>It's Getting OK Now</SongName>
+    <AlbumName>Don't Tread On Me</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>There's Always an Excuse</SongName>
+    <AlbumName>Don't Tread On Me</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Little Brother</SongName>
+    <AlbumName>Don't Tread On Me</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Hey You</SongName>
+    <AlbumName>Uplifter</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>It's Alright</SongName>
+    <AlbumName>Uplifter</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Mix It Up</SongName>
+    <AlbumName>Uplifter</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Golden Sunlight</SongName>
+    <AlbumName>Uplifter</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>India Ink</SongName>
+    <AlbumName>Uplifter</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Daisy Cutter</SongName>
+    <AlbumName>Uplifter</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Too Much Too Fast</SongName>
+    <AlbumName>Uplifter</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Never Ending Summer</SongName>
+    <AlbumName>Uplifter</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Two Drops In the Ocean</SongName>
+    <AlbumName>Uplifter</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Something Out of Nothing</SongName>
+    <AlbumName>Uplifter</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Jackpot</SongName>
+    <AlbumName>Uplifter</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>My Heart Sings</SongName>
+    <AlbumName>Uplifter</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>I Like the Way</SongName>
+    <AlbumName>Uplifter</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Get Down</SongName>
+    <AlbumName>Uplifter</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>How Long Has It Been</SongName>
+    <AlbumName>Uplifter</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Sun Come Through</SongName>
+    <AlbumName>Uplifter</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Time Bomb</SongName>
+    <AlbumName>Universal Pulse</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Wild Nights</SongName>
+    <AlbumName>Universal Pulse</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Sunset in July</SongName>
+    <AlbumName>Universal Pulse</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Trouble</SongName>
+    <AlbumName>Universal Pulse</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Count Me In</SongName>
+    <AlbumName>Universal Pulse</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Rock On</SongName>
+    <AlbumName>Universal Pulse</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Weightless</SongName>
+    <AlbumName>Universal Pulse</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>And a Ways to Go</SongName>
+    <AlbumName>Universal Pulse</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Ebb and Flow</SongName>
+    <AlbumName>Stereolithic</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Five of Everything</SongName>
+    <AlbumName>Stereolithic</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Showdown</SongName>
+    <AlbumName>Stereolithic</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Revelation of the Year</SongName>
+    <AlbumName>Stereolithic</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Sand Dollars</SongName>
+    <AlbumName>Stereolithic</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Boom Shaka</SongName>
+    <AlbumName>Stereolithic</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Make it Rough</SongName>
+    <AlbumName>Stereolithic</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>The Great Divide</SongName>
+    <AlbumName>Stereolithic</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Friday Afternoon</SongName>
+    <AlbumName>Stereolithic</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Simple True</SongName>
+    <AlbumName>Stereolithic</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>First Dimension</SongName>
+    <AlbumName>Stereolithic</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Made in the Shade</SongName>
+    <AlbumName>Stereolithic</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Existential Hero</SongName>
+    <AlbumName>Stereolithic</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>The Call</SongName>
+    <AlbumName>Stereolithic</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Tranquility</SongName>
+    <AlbumName>Stereolithic</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+  <SongismGuessingItem>
+    <SongName>Vape 'N Away</SongName>
+    <AlbumName>Stereolithic</AlbumName>
+    <Discovered>false</Discovered>
+    <DisplayItem>true</DisplayItem>
+	<TrackNumber>01</TrackNumber>
+  </SongismGuessingItem>
+</ArrayOfSongismGuessingItem>

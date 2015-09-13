@@ -1,0 +1,2 @@
+C:\Users\311 Music\Documents\Xamarin\Projects\SongAdventureAndroid\SongAdventureAndroid\bin\Debug\SongAdventureAndroid.dll
+C:\Users\311 Music\Documents\Xamarin\Projects\SongAdventureAndroid\packages\MonoGame.Framework.Android.3.3.0.0\lib\MonoAndroid\MonoGame.Framework.dll

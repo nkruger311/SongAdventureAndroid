@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SongAdventureAndroid", "SongAdventureAndroid\SongAdventureAndroid.csproj", "{5B17E452-F8C8-4808-AD62-2AF32E1D9738}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SongAdventureAndroid.UITests", "SongAdventureAndroid.UITests\SongAdventureAndroid.UITests.csproj", "{7B2C226A-1071-4387-91E1-05F15CB43BF3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5B17E452-F8C8-4808-AD62-2AF32E1D9738}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B17E452-F8C8-4808-AD62-2AF32E1D9738}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B17E452-F8C8-4808-AD62-2AF32E1D9738}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B17E452-F8C8-4808-AD62-2AF32E1D9738}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B2C226A-1071-4387-91E1-05F15CB43BF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B2C226A-1071-4387-91E1-05F15CB43BF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B2C226A-1071-4387-91E1-05F15CB43BF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B2C226A-1071-4387-91E1-05F15CB43BF3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

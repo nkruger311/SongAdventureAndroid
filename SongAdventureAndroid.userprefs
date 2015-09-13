@@ -1,0 +1,23 @@
+﻿<Properties StartupItem="SongAdventureAndroid\SongAdventureAndroid.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.NewAVD" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="SongAdventureAndroid\TitleScreen.cs">
+    <Files>
+      <File FileName="SongAdventureAndroid\Game1.cs" Line="1" Column="1" />
+      <File FileName="SongAdventureAndroid\Map.cs" Line="1" Column="1" />
+      <File FileName="SongAdventureAndroid\Layer.cs" Line="1" Column="1" />
+      <File FileName="SongAdventureAndroid\Tile.cs" Line="1" Column="1" />
+      <File FileName="SongAdventureAndroid\TitleScreen.cs" Line="299" Column="3" />
+      <File FileName="SongAdventureAndroid\SongismGuessingListBox.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint enabled="false" file="c:\Users\311 Music\Documents\Xamarin\Projects\SongAdventureAndroid\SongAdventureAndroid\Game1.cs" line="121" column="31" />
+      <Breakpoint enabled="false" file="C:\Users\311 Music\Documents\Xamarin\Projects\SongAdventureAndroid\SongAdventureAndroid\Game1.cs" line="113" column="10" />
+      <Breakpoint enabled="false" file="C:\Users\311 Music\Documents\Xamarin\Projects\SongAdventureAndroid\SongAdventureAndroid\MapEntrance.cs" line="65" column="14" />
+      <Breakpoint enabled="false" file="c:\Users\311 Music\Documents\Xamarin\Projects\SongAdventureAndroid\SongAdventureAndroid\MapEntrance.cs" line="88" column="13" />
+      <Breakpoint enabled="false" file="c:\Users\311 Music\Documents\Xamarin\Projects\SongAdventureAndroid\SongAdventureAndroid\Map.cs" line="123" column="9" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

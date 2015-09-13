@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map>
+  <Layer>
+    <Image>
+      <Path>Gameplay/Maps/map1</Path>
+    </Image>
+    <TileMap>
+      <Row>[0:0]</Row>
+    </TileMap>
+    <TileDimensions>
+      <X>1920</X>
+      <Y>720</Y>
+    </TileDimensions>
+  </Layer>
+
+  <Layer>
+    <Image>
+      <Path>Gameplay/TileSheets/terrain_tiles</Path>
+    </Image>
+    <TileMap>
+      <Row>[2:4][2:4][2:4][2:4][2:4][2:4][2:4][2:4][2:4][2:4][2:4]</Row>
+      <Row>[2:4][2:4][2:4][2:4][2:4][2:4][2:4][2:4][2:4][2:4][2:4]</Row>
+      <Row>[2:4][2:4][2:4][2:4][2:4][2:4][2:4][2:4][2:4][2:4][2:4]</Row>
+      <Row>[2:4][2:4][3:3][2:2][1:3][2:4][2:4][2:4][2:4][2:4][2:4]</Row>
+      <Row>[2:4][2:4][3:3][2:2][1:3][2:4][2:4][2:4][2:4][2:4][2:4]</Row>
+      <Row>[2:4][2:4][3:3][2:2][1:3][2:4][2:4][2:4][2:4][2:4][2:4]</Row>
+      <Row>[2:4][2:4][3:3][2:2][4:2][0:3][2:4][2:4][2:4][2:4][2:4]</Row>
+      <Row>[2:4][2:4][3:3][2:2][2:2][2:2][2:4][2:4][2:4][2:4][2:4]</Row>
+      <Row>[2:4][2:4][6:3][2:3][2:3][2:3][2:4][2:4][2:4][2:4][2:4]</Row>
+      <Row>[2:4][2:4][2:4][2:4][2:4][2:4][2:4][2:4][2:4][2:4][2:4]</Row>
+      <Row>[2:4][2:4][2:4][2:4][2:4][2:4][2:4][2:4][2:4][2:4][2:4]</Row>
+    </TileMap>
+    <TileDimensions>
+      <X>32</X>
+      <Y>32</Y>
+    </TileDimensions>
+  </Layer>
+
+  <Layer>
+    <Image>
+      <Path>Gameplay/TileSheets/clock</Path>
+    </Image>
+    <SolidTiles>[1:1][1:2]</SolidTiles>
+    <OverlayTiles>[1:0]</OverlayTiles>
+    <TileMap>
+      <Row>[x:x][x:x][x:x][x:x][x:x][x:x][x:x][x:x][x:x][x:x][x:x]</Row>
+      <Row>[x:x][x:x][x:x][x:x][x:x][x:x][x:x][x:x][x:x][x:x][x:x]</Row>
+      <Row>[x:x][x:x][x:x][x:x][x:x][x:x][x:x][x:x][x:x][x:x][x:x]</Row>
+      <Row>[x:x][x:x][x:x][x:x][x:x][x:x][x:x][x:x][x:x][x:x][x:x]</Row>
+      <Row>[x:x][x:x][x:x][x:x][x:x][x:x][x:x][x:x][x:x][x:x][x:x]</Row>
+      <Row>[x:x][x:x][x:x][x:x][x:x][x:x][x:x][x:x][x:x][x:x][x:x]</Row>
+      <Row>[x:x][x:x][x:x][x:x][x:x][x:x][1:0][x:x][x:x][x:x][x:x]</Row>
+      <Row>[x:x][x:x][x:x][x:x][x:x][x:x][1:1][x:x][x:x][x:x][x:x]</Row>
+      <Row>[x:x][x:x][x:x][x:x][x:x][x:x][1:2][x:x][x:x][x:x][x:x]</Row>
+      <Row>[x:x][x:x][x:x][x:x][x:x][x:x][x:x][x:x][x:x][x:x][x:x]</Row>
+      <Row>[x:x][x:x][x:x][x:x][x:x][x:x][x:x][x:x][x:x][x:x][x:x]</Row>
+    </TileMap>
+    <TileDimensions>
+      <X>32</X>
+      <Y>32</Y>
+    </TileDimensions>
+  </Layer>
+</Map>

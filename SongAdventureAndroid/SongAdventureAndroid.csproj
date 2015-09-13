@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <ProjectGuid>{5B17E452-F8C8-4808-AD62-2AF32E1D9738}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>SongAdventureAndroid</RootNamespace>
+    <AndroidApplication>True</AndroidApplication>
+    <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
+    <AndroidResgenClass>Resource</AndroidResgenClass>
+    <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
+    <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
+    <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
+    <AndroidUseLatestPlatformSdk>False</AndroidUseLatestPlatformSdk>
+    <AssemblyName>SongAdventureAndroid</AssemblyName>
+    <TargetFrameworkVersion>v4.4</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <AndroidLinkMode>None</AndroidLinkMode>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Mono.Android" />
+    <Reference Include="MonoGame.Framework">
+      <HintPath>..\packages\MonoGame.Framework.Android.3.3.0.0\lib\MonoAndroid\MonoGame.Framework.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MainActivity.cs" />
+    <Compile Include="Resources\Resource.designer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Camera2D.cs" />
+    <Compile Include="DialogButton.cs" />
+    <Compile Include="FadeEffect.cs" />
+    <Compile Include="Game1.cs" />
+    <Compile Include="GameplayScreen.cs" />
+    <Compile Include="GameScreen.cs" />
+    <Compile Include="Globals.cs" />
+    <Compile Include="Image.cs" />
+    <Compile Include="ImageEffect.cs" />
+    <Compile Include="InputManager.cs" />
+    <Compile Include="Inventory.cs" />
+    <Compile Include="Layer.cs" />
+    <Compile Include="Map.cs" />
+    <Compile Include="Menu.cs" />
+    <Compile Include="MenuItem.cs" />
+    <Compile Include="MenuManager.cs" />
+    <Compile Include="Player.cs" />
+    <Compile Include="ScreenManager.cs" />
+    <Compile Include="Songism.cs" />
+    <Compile Include="SongismGuessingItem.cs" />
+    <Compile Include="SongismGuessingListBox.cs" />
+    <Compile Include="SongismOptionDialog.cs" />
+    <Compile Include="SongismScreen.cs" />
+    <Compile Include="SplashScreen.cs" />
+    <Compile Include="SpriteSheetEffect.cs" />
+    <Compile Include="Tile.cs" />
+    <Compile Include="TitleScreen.cs" />
+    <Compile Include="XmlManager.cs" />
+    <Compile Include="LoadingScreen.cs" />
+    <Compile Include="AreaProgressBar.cs" />
+    <Compile Include="SongismSongInfoListBox.cs" />
+    <Compile Include="SongismSongInfoItem.cs" />
+    <Compile Include="NPC.cs" />
+    <Compile Include="SongismGuessingItem %28copy%29.cs" />
+    <Compile Include="InventoryItem.cs" />
+    <Compile Include="BackpackInventory.cs" />
+    <Compile Include="IsometricLayer.cs" />
+    <Compile Include="TutorialTile.cs" />
+    <Compile Include="TutorialMapCell.cs" />
+    <Compile Include="TutorialTileMap.cs" />
+    <Compile Include="MapEntrance.cs" />
+    <Compile Include="GameProgress.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AboutResources.txt" />
+    <None Include="Properties\AndroidManifest.xml" />
+    <None Include="Assets\AboutAssets.txt" />
+    <None Include="packages.config" />
+    <None Include="Load\ScreenManager.xml" />
+    <None Include="Load\Gameplay\Inventory.xml" />
+    <None Include="Load\Gameplay\Player.xml" />
+    <None Include="Load\Gameplay\SongBook.xml" />
+    <None Include="Load\Gameplay\Maps\Map1.xml" />
+    <None Include="Load\Gameplay\Screens\SongismScreen.xml" />
+    <None Include="Load\Gameplay\Screens\SplashScreen.xml" />
+    <None Include="Load\Gameplay\Songisms\CurrentSongism.xml" />
+    <None Include="Load\Gameplay\Songisms\Map1.xml" />
+    <None Include="Load\Gameplay\Songisms\SongismGuessingItems.xml" />
+    <None Include="Load\Menus\TestMenu.xml" />
+    <None Include="Load\Menus\TitleMenu.xml" />
+    <None Include="Content\spriteFont1.xnb" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\Main.axml" />
+    <AndroidResource Include="Resources\values\Strings.xml" />
+    <AndroidResource Include="Resources\drawable-hdpi\Icon.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\Icon.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\Icon.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\Icon.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\Icon.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
+  <ItemGroup>
+    <Folder Include="Content\" />
+    <Folder Include="Load\" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Content\Gameplay\player.xnb" />
+    <AndroidAsset Include="Content\Fonts\GameFont.xnb" />
+    <AndroidAsset Include="Content\Fonts\GameFont_Size32.xnb" />
+    <AndroidAsset Include="Content\Gameplay\Maps\map1.xnb" />
+    <AndroidAsset Include="Content\Gameplay\Songisms\color.xnb" />
+    <AndroidAsset Include="Content\Gameplay\Songisms\down.xnb" />
+    <AndroidAsset Include="Content\Gameplay\Songisms\timebomb.xnb" />
+    <AndroidAsset Include="Content\Gameplay\TileSheets\clock.xnb" />
+    <AndroidAsset Include="Content\Gameplay\TileSheets\terrain_tiles.xnb" />
+    <AndroidAsset Include="Content\Gameplay\UI\buttonsheet.xnb" />
+    <AndroidAsset Include="Content\Gameplay\UI\dialog.xnb" />
+    <AndroidAsset Include="Content\Gameplay\UI\dialogbackground.xnb" />
+    <AndroidAsset Include="Content\Gameplay\UI\dialogbackgroundblack.xnb" />
+    <AndroidAsset Include="Content\Gameplay\UI\radiobuttonsheet.xnb" />
+    <AndroidAsset Include="Content\ScreenManager\FadeImage.xnb" />
+    <AndroidAsset Include="Content\SplashScreen\SplashScreen.xnb" />
+    <AndroidAsset Include="Content\Gameplay\UI\loadingscreenanimation.xnb" />
+    <AndroidAsset Include="Content\Gameplay\alienplayer.xnb" />
+    <AndroidAsset Include="Content\Gameplay\UI\areaprogressicon.xnb" />
+    <AndroidAsset Include="Content\Gameplay\Songisms\frolic_room_dark.xnb" />
+    <AndroidAsset Include="Content\Gameplay\Songisms\frolic_room_light.xnb" />
+    <AndroidAsset Include="Content\Gameplay\TileSheets\downtown_los_angeles.xnb" />
+    <AndroidAsset Include="Content\Gameplay\Songisms\guessing_items_song_list.xnb" />
+    <AndroidAsset Include="Content\Gameplay\Songisms\firewater.xnb" />
+    <AndroidAsset Include="Content\Gameplay\NPCs\bartender.xnb" />
+    <AndroidAsset Include="Content\Gameplay\NPCs\bartender_question.xnb" />
+    <AndroidAsset Include="Content\Gameplay\NPCs\bartender_mission_complete.xnb" />
+    <AndroidAsset Include="Content\Gameplay\UI\backpack.xnb" />
+    <AndroidAsset Include="Content\Gameplay\TileSheets\downtown_los_angeles_tilesheet.xnb" />
+    <AndroidAsset Include="Content\Gameplay\TileSheets\part1_tileset.xnb" />
+    <AndroidAsset Include="Content\Gameplay\TileSheets\part2_tileset.xnb" />
+    <AndroidAsset Include="Content\Gameplay\TileSheets\part3_tileset.xnb" />
+    <AndroidAsset Include="Content\Gameplay\TileSheets\part4_tileset.xnb" />
+    <AndroidAsset Include="Content\Gameplay\TileSheets\los_angeles_1.xnb" />
+    <AndroidAsset Include="Content\Gameplay\Maps\frolic_room_map_entrance.xnb" />
+    <AndroidAsset Include="Content\Gameplay\TileSheets\frolic_room.xnb" />
+    <AndroidAsset Include="Content\Gameplay\TileSheets\frolic_room_TileSheet.xnb" />
+    <AndroidAsset Include="Content\Gameplay\Songisms\amber.xnb" />
+    <AndroidAsset Include="Content\Gameplay\Songisms\freeze_time.xnb" />
+    <AndroidAsset Include="Content\Gameplay\Songisms\same_mistake_twice_locked.xnb" />
+    <AndroidAsset Include="Content\Gameplay\Songisms\same_mistake_twice_unlocked.xnb" />
+    <AndroidAsset Include="Content\Gameplay\TileSheets\los_angeles_2_TileSheet.xnb" />
+  </ItemGroup>
+</Project>
