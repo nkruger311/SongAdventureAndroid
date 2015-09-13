@@ -9,8 +9,8 @@ namespace SongAdventureAndroid
 {
     public class FadeEffect : ImageEffect
     {
-        public float FadeSpeed;
-        public bool Increase;
+		public float FadeSpeed { get; set; }
+		public bool Increase { get; set; }
 
         public FadeEffect()
         {

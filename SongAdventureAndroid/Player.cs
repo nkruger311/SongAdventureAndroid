@@ -13,16 +13,24 @@ namespace SongAdventureAndroid
 {
     public class Player
     {
-        public Image Image;
-        public Vector2 Velocity;
-        public float MoveSpeed;
+		private Vector2 _vDestination;
+		private Vector2 _vVelocity;
+
+		public Image Image {get;set;}
+		//public Vector2 Velocity { get { return _vVelocity; } set { _vVelocity = value; } }
+		public Vector2 Velocity
+		{
+			get { return _vVelocity; }
+			set { _vVelocity = value; }
+		}
+		public float MoveSpeed { get; set; }
         [XmlIgnore]
-        public Vector2 Destination;
-        public Vector2 Position;
+		public Vector2 Destination { get { return _vDestination; } set { _vDestination = value; } }
+		public Vector2 Position { get; set; }
         Vector2 prevPosition;
         bool moveStarted;
         Vector2 FocusPosition { get { return Position; } }
-        public float ResponseDelay;
+		public float ResponseDelay { get; set; }
         int _responseDelayTimer;
         bool _isRepsonseDelayStarted = false;
         bool _isMoving = false;
@@ -51,8 +59,8 @@ namespace SongAdventureAndroid
             /* Set velocity to zero */
             Velocity = Vector2.Zero;
             /* Set destination equal to middle of sprite */
-            Destination.X = (int)Image.Position.X + (Image.SourceRect.Width / 2);
-            Destination.Y = (int)Image.Position.Y + (Image.SourceRect.Height / 2);
+			_vDestination.X = (int)Image.Position.X + (Image.SourceRect.Width / 2);
+			_vDestination.Y = (int)Image.Position.Y + (Image.SourceRect.Height / 2);
         }
 
         public void UnloadContent()
@@ -117,18 +125,18 @@ namespace SongAdventureAndroid
 				if (_rectNavigationArea.Contains (InputManager.Instance.TransformedTouchPosition)) 
 				{
 					if (InputManager.Instance.TransformedTouchPosition.Y > (Image.Position.Y + (Image.SourceRect.Height / 2)))
-						Destination.Y = InputManager.Instance.TransformedTouchPosition.Y;
+						_vDestination.Y = InputManager.Instance.TransformedTouchPosition.Y;
 					else if (InputManager.Instance.TransformedTouchPosition.Y < (Image.Position.Y + (Image.SourceRect.Height / 2)))
-						Destination.Y = InputManager.Instance.TransformedTouchPosition.Y;
+						_vDestination.Y = InputManager.Instance.TransformedTouchPosition.Y;
 					else
-						Destination.Y = Image.Position.Y + (Image.SourceRect.Height / 2);
+						_vDestination.Y = Image.Position.Y + (Image.SourceRect.Height / 2);
 
 					if (InputManager.Instance.TransformedTouchPosition.X > (Image.Position.X + (Image.SourceRect.Width / 2)))
-						Destination.X = InputManager.Instance.TransformedTouchPosition.X;
+						_vDestination.X = InputManager.Instance.TransformedTouchPosition.X;
 					else if (InputManager.Instance.TransformedTouchPosition.X < (Image.Position.X + (Image.SourceRect.Width / 2)))
-						Destination.X = InputManager.Instance.TransformedTouchPosition.X;
+						_vDestination.X = InputManager.Instance.TransformedTouchPosition.X;
 					else
-						Destination.X = Image.Position.X + (Image.SourceRect.Width / 2);
+						_vDestination.X = Image.Position.X + (Image.SourceRect.Width / 2);
 				}
 			}
         }
@@ -151,42 +159,42 @@ namespace SongAdventureAndroid
                 /* Moving to Destination.Y */
                 if (Destination.Y > ((int)Image.Position.Y + (Image.SourceRect.Height / 2)) + 1)
                 {
-                    Velocity.Y = MoveSpeed * (float)gameTime.ElapsedGameTime.TotalSeconds;
+					_vVelocity.Y = MoveSpeed * (float)gameTime.ElapsedGameTime.TotalSeconds;
                     Image.SpriteSheetEffect.CurrentFrame.Y = 0;
                 }
                 else if (Destination.Y < ((int)Image.Position.Y + (Image.SourceRect.Height / 2)) - 1)
                 {
-                    Velocity.Y = -MoveSpeed * (float)gameTime.ElapsedGameTime.TotalSeconds;
+					_vVelocity.Y = -MoveSpeed * (float)gameTime.ElapsedGameTime.TotalSeconds;
                     Image.SpriteSheetEffect.CurrentFrame.Y = 3;
                 }
                 else
-                    Velocity.Y = 0;
+					_vVelocity.Y = 0;
 
                 /* Moving to Destination.X */
                 if ((int)Destination.X > ((int)Image.Position.X + (Image.SourceRect.Width / 2)) + 1)
                 {
-                    Velocity.X = MoveSpeed * (float)gameTime.ElapsedGameTime.TotalSeconds;
+					_vVelocity.X = MoveSpeed * (float)gameTime.ElapsedGameTime.TotalSeconds;
                     Image.SpriteSheetEffect.CurrentFrame.Y = 2;
                 }
                 else if ((int)Destination.X < ((int)Image.Position.X + (Image.SourceRect.Width / 2)) - 1)
                 {
-                    Velocity.X = -MoveSpeed * (float)gameTime.ElapsedGameTime.TotalSeconds;
+					_vVelocity.X = -MoveSpeed * (float)gameTime.ElapsedGameTime.TotalSeconds;
                     Image.SpriteSheetEffect.CurrentFrame.Y = 1;
                 }
                 else
-                    Velocity.X = 0;
+					_vVelocity.X = 0;
 
                 if (!moveStarted)
                 {
                     if (Velocity.Y > 0 && (int)prevPosition.Y == (int)Image.Position.Y)
-                        Velocity.Y = 0;
+						_vVelocity.Y = 0;
                     else if (Velocity.Y < 0 && (int)prevPosition.Y == (int)Image.Position.Y)
-                        Velocity.Y = 0;
+						_vVelocity.Y = 0;
 
                     if (Velocity.X > 0 && (int)prevPosition.X == (int)Image.Position.X)
-                        Velocity.X = 0;
+						_vVelocity.X = 0;
                     else if (Velocity.X < 0 && (int)prevPosition.X == (int)Image.Position.X)
-                        Velocity.X = 0;
+						_vVelocity.X = 0;
                 }
 
                 moveStarted = false;
@@ -199,12 +207,27 @@ namespace SongAdventureAndroid
 			Velocity = Vector2.Zero;
 
 			/* Set destination equal to middle of sprite */
-			Destination.X = (int)Image.Position.X + (Image.SourceRect.Width / 2);
-			Destination.Y = (int)Image.Position.Y + (Image.SourceRect.Height / 2);
+			_vDestination.X = (int)Image.Position.X + (Image.SourceRect.Width / 2);
+			_vDestination.Y = (int)Image.Position.Y + (Image.SourceRect.Height / 2);
 
 			/* We're not walking so let's stop the animation */
 			Image.IsActive = false;
 			_isMoving = false;
+		}
+
+		public void UpdateImagePositionX(int x)
+		{
+			UpdateImagePosition (x, (int)Image.Position.Y);
+		}
+
+		public void UpdateImagePositionY(int y)
+		{
+			UpdateImagePosition ((int)Image.Position.X, y);
+		}
+
+		public void UpdateImagePosition(int x, int y)
+		{
+			Image.Position = new Vector2 (x, y);
 		}
     }
 }

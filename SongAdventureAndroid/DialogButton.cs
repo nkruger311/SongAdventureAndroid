@@ -16,15 +16,15 @@ namespace SongAdventureAndroid
         public event EventHandler OnButtonRelease;
         public event EventHandler OnDialogClosing;
 
-        public string ButtonName;
-        public Image Image;
+		public string ButtonName {get;set;}
+		public Image Image {get;set;}
         public string Text
         {
             get { return Image.Text; }
             set { Image.Text = value; }
         }
-        int prevFrameY = -1;
-        bool enabled;
+        private int _iPrevFrameY = -1;
+        private bool _bEnabled;
 
         public DialogButton(bool enabled)
         {
@@ -32,7 +32,7 @@ namespace SongAdventureAndroid
             Image.Path = "Load/Gameplay/UI/buttonsheet";
             Image.SourceRect = new Rectangle(0, 0, 190, 49);
             Text = String.Empty;
-            this.enabled = enabled;
+			_bEnabled = enabled;
         }
 
         public void LoadContent()
@@ -40,8 +40,7 @@ namespace SongAdventureAndroid
             Image.LoadContent();
             Image.SpriteSheetEffect.AmountOfFrames = new Vector2(1, 2);
             Image.SpriteSheetEffect.CurrentFrame = new Vector2(0, 0);
-            Image.SourceRect.X = (int)Image.Position.X;
-            Image.SourceRect.Y = (int)Image.Position.Y;
+            Image.SourceRect = new Rectangle ((int)Image.Position.X, (int)Image.Position.Y, Image.SourceRect.Width, Image.SourceRect.Height);
             int FrameHeight = Image.SpriteSheetEffect.FrameHeight;
             int FrameWidth = Image.SpriteSheetEffect.FrameWidth;
         }
@@ -55,10 +54,9 @@ namespace SongAdventureAndroid
         {
             Image.IsActive = true;
 
-            Image.SourceRect.X = (int)Image.Position.X;
-            Image.SourceRect.Y = (int)Image.Position.Y;
+			Image.SourceRect = new Rectangle ((int)Image.Position.X, (int)Image.Position.Y, Image.SourceRect.Width, Image.SourceRect.Height);
 
-            if (enabled)
+			if (_bEnabled)
             {
                 if (InputManager.Instance.TouchPanelDown() && Image.SourceRect.Contains(InputManager.Instance.TransformedTouchPosition))
                 {

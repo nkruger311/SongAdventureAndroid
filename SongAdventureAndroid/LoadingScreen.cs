@@ -12,7 +12,7 @@ namespace SongAdventureAndroid
 {
 	public class LoadingScreen : GameScreen
 	{
-		public Image Image;
+		public Image Image {get;set;}
 
 		public override void LoadContent()
 		{

@@ -7,8 +7,8 @@ namespace SongAdventureAndroid
 {
     public class MenuItem
     {
-        public string LinkType;
-        public string LinkID;
-        public Image Image;
+		public string LinkType { get; set; }
+		public string LinkID { get; set; }
+		public Image Image { get; set; }
     }
 }

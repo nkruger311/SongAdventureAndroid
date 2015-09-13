@@ -25,7 +25,7 @@ namespace SongAdventureAndroid
 
 		[XmlElement("TileMap")]
 		public TileMap Tile;
-		public Image Image;
+		public Image Image {get;set;}
 		public string SolidTiles, OverlayTiles;
 		List<Tile> underlayTiles, overlayTiles;
 		Tile.TileState state;

@@ -47,7 +47,7 @@ namespace SongAdventureAndroid
             songBookSaver.Save(System.IO.Path.Combine(Globals.LoadGameplayDirectory, "SongBook.xml"), SongBook);
 
 			XmlManager<List<InventoryItem>> xmItemsSaver = new XmlManager<List<InventoryItem>> ();
-			xmItemsSaver.Save (System.IO.Path.Combine (Globals.LoadGameplayDirectory, "IventoryItems.xml"), Items);
+			xmItemsSaver.Save (System.IO.Path.Combine (Globals.LoadGameplayDirectory, "InventoryItems.xml"), Items);
         }
 
 		public int GetNumberOfDiscoveredSongismsPerLevel(int levelNumber)

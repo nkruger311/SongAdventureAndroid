@@ -98,8 +98,7 @@ namespace SongAdventureAndroid
             RadioButton.SpriteSheetEffect.AmountOfFrames = new Vector2(1, 2);
             RadioButton.SpriteSheetEffect.CurrentFrame = new Vector2(0, 0);
             RadioButton.Position = Position;
-            RadioButton.SourceRect.X = (int)RadioButton.Position.X;
-            RadioButton.SourceRect.Y = (int)RadioButton.Position.Y;
+            RadioButton.UpdateSourceRectPosition ((int)RadioButton.Position.X, (int)RadioButton.Position.Y);
 
 			font = ScreenManager.Instance.Content.Load<SpriteFont> ("Fonts/GameFont_Size32");
 
